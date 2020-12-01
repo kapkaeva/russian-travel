@@ -1,0 +1,6 @@
+.lead {
+  text-align: center;
+  width: calc(100% - 296px);
+  margin: auto;
+      border: 1px solid rgb(80, 59, 127);
+}
