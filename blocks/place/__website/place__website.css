@@ -1,7 +1,18 @@
 .place__website {
-    border: 1px solid rgb(164, 146, 204);
   height: fit-content;
   align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {

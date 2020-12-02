@@ -5,9 +5,21 @@
   color: white;
   text-align: center;
   font-size: 18px;
-  /* line-height: 1.2px; */
   position: relative;
 }
+
+ @media screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: 24px;
+  }
+ }
+
+ @media screen and (min-width: 768px) {
+  .cover__subtitle {
+    font-size: 24px;
+    padding-bottom: 115px;
+  }
+ }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {

@@ -1,11 +1,24 @@
 .place__paragraph {
-  margin: 0;
   padding-left: 0;
   padding-bottom: 26px;
-    border: 1px solid rgb(164, 146, 204);
   font-size: 18px;
   line-height: 1.6;
+}
 
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph {
+    margin: 0;
+    font-size: 16px;
+  }
+  .place__paragraph:last-of-type {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -15,8 +28,8 @@
     padding-bottom: 25px;
   }
   .place__paragraph:last-of-type {
-  font-size: 16px;
-  margin: 0 16px;
-  padding-bottom: 0;
+    font-size: 16px;
+    margin: 0 16px;
+    padding-bottom: 0;
   }
 }

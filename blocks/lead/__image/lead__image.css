@@ -5,8 +5,17 @@
   background-position: center;
   color: #ffffff;
   box-sizing: border-box;
-  border: 1px solid rgb(80, 59, 127);
   overflow: hidden;
-  object-fit: cover;
 }
 
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    padding: 0 148px;
+  }
+}

@@ -1,15 +1,4 @@
 .cover__background {
-  /* width: 100%;
-  height: auto;
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  box-sizing: border-box;
-  border: 1px solid rgb(80, 59, 127);
-  overflow: hidden;
-  object-fit: cover;
-  margin-top: -100%;
-  opacity: .5; */
   width: 100%;
   max-height: 740px;
   background-size: cover;
