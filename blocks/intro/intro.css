@@ -5,25 +5,13 @@
   box-sizing: border-box;
 }
 
-/* @media screen and (min-width: 1440px) {
-  .intro {
-    width: calc(100% - 296px);
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .intro {
-    width: calc(100% - 96px);
-  }
-}
-*/
-/* 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 768px;
-    padding-top: 88px;
+    max-width: 768px;
+    padding: 88px 24px 0;
   }
-} */
+}
 
 @media screen and (max-width: 320px) {
   .intro {

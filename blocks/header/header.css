@@ -8,19 +8,13 @@
 
 }
 
-/* @media screen and (max-width: 1024px) {
-  .header {
-    width: calc(100% - 96px);
-    padding: 28px 0 28px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 768px;
-    padding: 28px 0 28px;
+    max-width: 768px;
+    padding: 28px 24px 28px;
   }
-} */
+} 
 
 @media screen and (max-width: 320px) {
   .header {

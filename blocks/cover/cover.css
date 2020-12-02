@@ -1,5 +1,4 @@
 .cover {
-  width: calc(100% - 96px);
   min-height: 740px;
   margin: 92px auto 0;
   border: 1px solid rgb(80, 59, 127);

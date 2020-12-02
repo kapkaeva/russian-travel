@@ -1,19 +1,19 @@
 .lead__title {
   max-width: 720px;
   margin: 0 auto;
-  padding: calc(136px - 90px) 0 0;
   font-weight: bold;
   font-size: 96px;
   line-height: 1.1;
   color: white;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (max-width: 768px) {
   .lead__title {
-    padding: calc(128px - 90px) 0 0;
+    font-size: 2.6em;
   }
-} */
+}
 
 @media screen and (max-width: 320px) {
   .lead__title {
