@@ -2,8 +2,24 @@
   max-width: 720px;
   margin: 0 auto;
   padding: calc(136px - 90px) 0 0;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.1;
   color: white;
+  box-sizing: border-box;
+}
+
+/* @media screen and (min-width: 1024px) {
+  .lead__title {
+    padding: calc(128px - 90px) 0 0;
+  }
+} */
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    margin: 0 auto;
+    padding-top: 106px;
+    font-size: 2.6em;
+  }
 }

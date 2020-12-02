@@ -7,3 +7,26 @@
   line-height: 1.2;
   color: white;
 }
+
+/* @media screen and (min-width: 1024px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+} */
+
+
+/* @media screen and (max-width: 768px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+} */
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: 0 16px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    font-size: 1em;
+    line-height: 1.1;
+  }
+}

@@ -1,4 +1,8 @@
 .langs {
   display: flex;
   list-style-type: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0;
+  padding: 0;
 }

@@ -3,3 +3,12 @@
   height: fit-content;
   align-self: end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    visibility: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 0;
+  }
+}
