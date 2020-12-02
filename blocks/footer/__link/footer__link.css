@@ -10,3 +10,11 @@
   opacity: .8;
   transition: opacity .2s linear;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    padding: 16px 0 16px;
+    display: block;
+    font-size: 24px;
+  }
+}
