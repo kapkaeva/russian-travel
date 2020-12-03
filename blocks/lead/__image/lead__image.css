@@ -8,14 +8,16 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
-    padding: 0 48px;
+    max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    padding: 0 148px;
+    max-width: 984px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

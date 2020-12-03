@@ -1,38 +1,31 @@
 .lead__title {
   max-width: 720px;
   margin: 0 auto;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 96px;
   line-height: 1.1;
   color: white;
   box-sizing: border-box;
   overflow: hidden;
+  padding-top: 28px;
 }
 
 @media screen and (min-width: 1280px) {
   .lead__title {
-    padding-top: 28px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    padding-top: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__title {
     padding-top: 32px;
-    font-size: 2.6em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .lead__title {
+  max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (1024 - 320)));
+  margin: 0 auto;
+  font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (1024 - 320)));
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    max-width: 288px;
-    margin: 0 auto;
-    padding-top: 32px;
-    font-size: 2.6em;
+    font-size: 40px;
   }
 }

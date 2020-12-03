@@ -1,12 +1,6 @@
 .lead {
+  max-width: calc(1280px - 296px);
   text-align: center;
   margin: auto;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-  }
 }
 
