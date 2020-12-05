@@ -1,8 +1,12 @@
 .footer__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 32px;
 }
 
 @media screen and (min-width: 768px) {
    .footer__menu {
     display: flex;
+    padding-bottom: 0;
   }
 }

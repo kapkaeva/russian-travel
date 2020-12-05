@@ -1,6 +1,6 @@
 .lead {
   max-width: calc(1280px - 296px);
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 

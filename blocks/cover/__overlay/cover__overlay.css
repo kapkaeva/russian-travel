@@ -1,13 +1,14 @@
 .cover__overlay {
-    text-decoration: none;
-    background-image: url("../../../images/cover-trains.jpg");
-    box-sizing: border-box;
-    display: block;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid salmon;
-    max-width: calc(1280px - 96px);
-    min-height: 200px;
+  text-decoration: none;
+  background-image: url("../../../images/cover-trains.jpg");
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  max-width: calc(1280px - 96px);
+  min-height: 200px;
 }
 
 .cover__overlay::before {

@@ -3,6 +3,7 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/link/link.css);
 
 @import url(../blocks/header/header.css);
 
@@ -10,7 +11,7 @@
 
 @import url(../blocks/langs/langs.css);
 @import url(../blocks/langs/__lang-link/langs__lang-link.css);
-@import url(../blocks/langs/__lang-link/langs__lang-link_active.css);
+@import url(../blocks/langs/__lang-link/_acitve/langs__lang-link_active.css);
 
 
 @import url(../blocks/lead/lead.css);
@@ -49,5 +50,6 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

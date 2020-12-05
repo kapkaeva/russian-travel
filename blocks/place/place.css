@@ -3,35 +3,9 @@
   display: grid;
   gap: 40px;
   color: white;
+  grid-template-columns: fit-content(440px) auto;
+  gap: 32px;
 }
-
-@media screen and (max-width: 320px) {
-  .place {
-    grid-template-columns: fit-content(320px);
-    gap: 32px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-   .place {
-     grid-template-columns: fit-content(768px);
-     gap: 28px;
-   }
- }
-
-@media screen and (min-width: 768px) {
-  .place {
-    grid-template-columns: fit-content(340px) auto;
-    gap: 40px;
-  }
-}
-
- @media screen and (max-width: 1024px) {
-   .place {
-      grid-template-columns: minmax(fit-content(440px) auto);
-      gap: 32px;
-   }
- }
 
 @media screen and (min-width: 1280px) {
   .place {
@@ -39,3 +13,10 @@
     gap: 40px;
   }
 }
+
+ @media screen and (max-width: 760px) {
+   .place {
+     grid-template-columns: fit-content(768px);
+     gap: 28px;
+   }
+ }
