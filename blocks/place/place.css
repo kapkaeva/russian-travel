@@ -1,7 +1,6 @@
 .place {
   padding-top: 92px;
   display: grid;
-  gap: 40px;
   color: white;
   grid-template-columns: fit-content(440px) auto;
   gap: 32px;
