@@ -1,7 +1,6 @@
 .cover {
   max-width: calc(1280px - 96px);
   max-height: calc(740px + 184px);
-  margin: 0 auto;
   display: block;
   position: relative;
   margin: 92px auto 92px;
